@@ -1,4 +1,9 @@
 body{
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  @include Selina();
+  font-size: $font-size;
+  line-height: $line-height;
   position: relative;
   min-height: 100vh;
   height: 100%;
@@ -25,7 +30,7 @@ p{
 
 
 a{
-  text-decoration: underline;
+  text-decoration: none;
   color: #fff;
   a:hover{
     text-decoration: none;
